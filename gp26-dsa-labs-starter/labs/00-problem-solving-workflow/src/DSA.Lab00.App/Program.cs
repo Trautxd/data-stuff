@@ -28,3 +28,10 @@ else
 
 Console.WriteLine();
 Console.WriteLine("Next: open the lab README and work through the tasks.");
+
+Console.WriteLine();
+Console.Write("Type a name: ");
+string? input = Console.ReadLine();
+
+Console.WriteLine(collection.ContainsName(input ?? ""));
+Console.WriteLine("Highest score: " + collection.FindHighestScore()?.Name);

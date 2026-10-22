@@ -69,6 +69,7 @@ public sealed class PlayerCollectionTests
         Assert.That(contains, Is.False);
     }
 
+ 
     private static PlayerCollection CreateCollection()
     {
         return new PlayerCollection(new List<Player>
